@@ -1,0 +1,64 @@
+.import-container {
+   border: 1px solid lightgray;
+   border-radius: 0.5rem;
+   padding: 0.5rem;
+   margin: auto;
+   box-shadow: 0 0 0.25rem gray;
+   text-align: center;
+}
+
+.container{
+    border-radius: 15px;
+    /* text-align: center; */
+    padding: 20px;
+    background-color: #fff;
+}
+.headerTable{
+    border: solid 2px black;
+}
+ .listname{
+    padding: 10px;
+    text-align: left;
+ }
+ #table{
+    border: solid 2px black;
+ }
+ .showItems{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+ }
+ .showItems1{
+   justify-items: right;
+   margin-bottom: 1rem;
+   /* border: solid 2px black; */
+ }
+ 
+ #command{
+    margin: 0px 8px 0px 8px;
+ }
+
+ .tables {
+   width: 100%;
+   border-collapse: collapse; /* รวมเส้นระหว่างเซลล์ให้ดูเนียน */
+}
+
+.tables th, .tables td {
+   border: 1px solid #ddd; /* เส้นกรอบสีเทา */
+   padding: 8px; /* ระยะห่างภายในเซลล์ */
+   text-align: left; /* จัดข้อความให้อยู่ด้านซ้าย */
+}
+
+.tables th{
+   background-color: #f2f2f2; /* พื้นหลังของหัวตาราง */
+   font-weight: bold; /* ตัวหนา */
+}
+
+.tables tr:nth-child(even) {
+   background-color: #f9f9f9; /* แถวที่เป็นเลขคู่ */
+}
+
+.tables tr:hover {
+   background-color: #ddd; /* เปลี่ยนสีเมื่อเมาส์ชี้ */
+}

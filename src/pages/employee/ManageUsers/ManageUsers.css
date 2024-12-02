@@ -1,0 +1,27 @@
+.section{
+    text-align: left;
+    /* border: 2px solid black; */
+    padding-left: 1rem;
+}
+.table2{
+    margin: 1rem;
+    text-align: left;
+    /* margin-left: 28rem; */
+    /* border: 2px solid black; */
+    width: 20rem;
+    
+    
+}
+.box-from{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-bottom: 10px; 
+}
+
+td {
+    margin-bottom: 10px;
+}
+

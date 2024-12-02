@@ -1,0 +1,269 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container-img {
+    background-color: #fff;
+    margin-right: 12rem;
+}
+
+
+
+.from-title {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #473366;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-container {
+    display: flex;
+    padding: 12rem 8rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.social-login .social-button {
+    display: flex;
+    width: 100%;
+    gap: 0.81rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.75rem 0;
+    align-items: center;
+    border-radius: 0.31rem;
+    justify-content: center;
+    background: #F9F8FF;
+    border: 1px solid #D5CBFF;
+    transition: 0.3s ease;
+}
+
+.social-login .social-button:hover {
+    background: #F1EFF9;
+    border-color: #5F41E4;
+}
+
+.login-container .separator {
+    margin: 1.5rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.login-container .separator span {
+    position: relative;
+    background: #fff;
+    z-index: 1;
+    padding: 0 0.9rem;
+    font-size: 1.06rem;
+    font-weight: 500;
+}
+
+.login-container .separator::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #bfb3f2;
+}
+
+.login-form .input-wrapper {
+    height: 54px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.login-form .input-wrapper .input-field {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 1.06rem;
+    border-radius: 0.31rem;
+    border: 1px solid #bfb3f2;
+    padding: 0 1.25rem 0 3.12rem;
+    transition: 0.2s ease;
+}
+
+.login-form .input-wrapper .input-field:focus {
+    border-color: #5F41E4;
+}
+
+.login-form .input-wrapper .input-field::placeholder {
+    color: #a395e0;
+}
+
+.login-form .input-wrapper i {
+    color: #a395e0;
+    position: absolute;
+    top: 50%;
+    left: 0.9rem;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: 0.2s ease;
+}
+
+.login-form .input-wrapper .input-field:focus~i {
+    color: #5F41E4;
+}
+
+.login-form .forgot-pass-link {
+    display: inline-block;
+    width: fit-content;
+    margin-top: -0.46rem;
+}
+
+.login-form .login-button {
+    width: 100%;
+    height: 54px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.125rem;
+    background: #473366;
+    margin-top: 2.19rem;
+    border-radius: 0.31rem;
+    transition: 0.2s ease;
+}
+
+.login-form .login-button:hover {
+    background: #211138;
+}
+
+.login-container .signup-text {
+    text-align: center;
+    font-weight: 500;
+    margin: 1.75rem 0 0.31rem;
+}
+
+.login-container a {
+    text-decoration: none;
+    color: #5F41E4;
+    font-weight: 500;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Modal Overlay simg up */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    
+}
+
+/* Modal Content */
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #aaa;
+    cursor: pointer;
+    
+}
+
+.close-button:hover {
+    color: red;
+}
+
+
+.input-wrapper {
+    margin: 1rem 1rem;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-button {
+    border-radius: 5px;
+    width: 100%;
+    height: 54px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.125rem;
+    background: #473366;
+    margin-top: 2.19rem;
+    border-radius: 0.31rem;
+    transition: 0.2s ease;
+}
+
+/* Reset Password Button */
+.reset-button {
+    background-color: #473366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.reset-button:hover {
+    background-color: #5e4798;
+}
